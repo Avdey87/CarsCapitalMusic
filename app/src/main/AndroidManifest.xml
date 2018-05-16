@@ -19,7 +19,8 @@
         <activity android:name=".CarsMainActivity" />
         <activity android:name=".BrandCarDescriptionActivity" />
         <activity android:name=".CapitalListActivity" />
-        <activity android:name=".CapitalDescriptionActivity"></activity>
+        <activity android:name=".CapitalDescriptionActivity" />
+        <activity android:name=".Timer"></activity>
     </application>
 
 </manifest>
