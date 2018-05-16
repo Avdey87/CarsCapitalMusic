@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CarsCapitalMusic</string>
+    <array name="option">
+        <item>Brand car</item>
+        <item>Capitals</item>
+        <item>Timer</item>
+        <item>Send Intent</item>
+    </array>
+</resources>
