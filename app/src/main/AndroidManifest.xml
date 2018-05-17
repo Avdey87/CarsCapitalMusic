@@ -20,7 +20,10 @@
         <activity android:name=".BrandCarDescriptionActivity" />
         <activity android:name=".CapitalListActivity" />
         <activity android:name=".CapitalDescriptionActivity" />
-        <activity android:name=".Timer"></activity>
+        <activity android:name=".Timer" />
+        <activity android:name=".IntentSendActivity" />
+        <activity android:name=".GetIntentActivity" />
+        <activity android:name=".MusicActivity"></activity>
     </application>
 
 </manifest>

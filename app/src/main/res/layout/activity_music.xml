@@ -4,46 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Timer">
+    tools:context=".MusicActivity">
 
+
+    <Spinner
+        android:id="@+id/listStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:entries="@array/style_music" />
+
+    <Button
+        android:id="@+id/showButton"
+        android:onClick="onClickShowBand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:text="Show band" />
 
     <TextView
-        android:id="@+id/timer"
+        android:id="@+id/listBand"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
-        android:text="Time"
-        android:textSize="40dp" />
-
-    <Button
-        android:id="@+id/startButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="158dp"
-        android:onClick="onClickStart"
-        android:text="Start" />
-
-    <Button
-        android:id="@+id/stopBotton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:onClick="onClickStop"
-        android:text="Stop" />
-
-    <Button
-        android:id="@+id/resumeButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="170dp"
-        android:onClick="onClickResume"
-        android:text="Resume" />
-
+        android:layout_marginTop="190dp"
+        android:hint="List band" />
 
 </RelativeLayout>

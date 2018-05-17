@@ -5,5 +5,13 @@
         <item>Capitals</item>
         <item>Timer</item>
         <item>Send Intent</item>
+        <item>Music style</item>
     </array>
+
+    <array name="style_music">
+        <item>ROCK</item>
+        <item>POP</item>
+        <item>CLASSIC</item>
+    </array>
+
 </resources>
